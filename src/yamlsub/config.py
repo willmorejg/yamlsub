@@ -23,12 +23,12 @@ class Config:
         return self.__config
     
     def get_config_key(self, key):
-        """Retrieve a specific configuration value.
+        """Retrieve a specific configuration value. Returns None if the key is not found.
 
         Args:
-            key (str): the key of the configuration value to retrieve
+            key (str): the key of the configuration value to retrieve or None if the key is not found
 
         Returns:
             object: the value of the configuration key
         """
-        return self.__config[key]
+        return self.__config[key] if key in self.__config else None

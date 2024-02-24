@@ -12,6 +12,8 @@ class TestConfig(unittest.TestCase):
         cfg = Config(yaml_path=yaml_path, env_path=env_path)
 
         self.assertIsNotNone(cfg.get_config())
+        empty_key = cfg.get_config_key('empty_key')
+        self.assertIsNone(empty_key)
         key2 = cfg.get_config_key('auth_keys')['key2']
         self.assertEqual(key2, 'env_test_key2')
 
