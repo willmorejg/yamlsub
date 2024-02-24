@@ -14,7 +14,7 @@ YAML substitution
 
 ## About <a name = "about"></a>
 
-A wrrapper aroung the [dotenv](https://pypi.org/project/dotenv/) and [pyaml-env](https://pypi.org/project/pyaml-env/) packages.
+A wrapper around the [dotenv](https://pypi.org/project/dotenv/) and [pyaml-env](https://pypi.org/project/pyaml-env/) packages.
 
 ## Getting Started <a name = "getting_started"></a>
 
