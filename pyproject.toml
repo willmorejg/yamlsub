@@ -17,7 +17,3 @@ push = true
 "setup.cfg" = [
     '^version = {version}',
 ]
-
-[project.urls]
-Homepage = "https://github.com/willmorejg/yamlsub"
-Issues = "https://github.com/willmorejg/yamlsub/issues"
