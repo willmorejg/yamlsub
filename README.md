@@ -29,7 +29,12 @@ It's important to view the documentation for the [pyaml-env](https://pypi.org/pr
 
 ### Installing
 
-For now, to include the package in a project, follow the [pip documentation](https://pip.pypa.io/en/latest/topics/vcs-support/#vcs-support) to import a GitHub project.
+To install using pip:
+```
+pip install yamlsub
+```
+
+To include the package from VCS in a project, you can follow the [pip documentation](https://pip.pypa.io/en/latest/topics/vcs-support/#vcs-support) to import a GitHub project.
 
 For example:
 ```
