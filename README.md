@@ -2,9 +2,21 @@
 
 YAML substitution
 
+## Project Shields
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Supported Python Versions][img_pyversions]][url_pyversions]
+[![PyPI Releases][img_pypi]][url_pypi]
+
+[img_pyversions]: https://img.shields.io/pypi/pyversions/yamlsub.svg
+[url_pyversions]: https://pypi.python.org/pypi/yamlsub
+[img_pypi]: https://img.shields.io/badge/PyPI-wheels-green.svg
+[url_pypi]: https://pypi.org/project/yamlsub/#files
+
 ## Table of Contents
 
 - [Project Title](#project-title)
+  - [Project Shields](#project-shields)
   - [Table of Contents](#table-of-contents)
   - [About ](#about-)
   - [Getting Started ](#getting-started-)
