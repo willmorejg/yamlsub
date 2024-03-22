@@ -11,7 +11,7 @@ class Config:
             yaml_path (str, optional): YAML configuration file. Defaults to 'config.yaml'.
             env_path (str, optional): .env file containing environment variables that may be substituded as values in the YAML configuration file. Defaults to '.env'.
         """
-        load_dotenv(env_path, verbose=True)
+        load_dotenv(env_path, verbose=True, override=True)
         self.__config = parse_config(yaml_path)
 
     def get_config(self):
